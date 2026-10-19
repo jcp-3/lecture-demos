@@ -1,4 +1,6 @@
 /* general styling */
+
+
 h1, h2, h3 {
   font-family: 'Helvetica';
 }
@@ -7,11 +9,48 @@ h2 {
   color: rebeccapurple;
 }
 
+header h1 {
+  font-size: 2.5em;
+  padding: 1em;
+  border-color:rgb(131, 123, 80);
+  border-style: groove;
+  text-align: center;
+}
 
 /* nav bar */
 nav {
   color: white;
   background-color: #4b2e83;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex; 
+  align-items: center;
+  list-style: none;
+  padding: 15px;
+  margin: 15px;
+}
+
+nav ul li {
+  padding: 1em;
+}
+
+nav a{
+  text-decoration: none;
+
+}
+
+li:hover {
+  text-decoration: underline;
+  color: rgb(131, 123, 80);
+}
+
+p {
+  font-size: 20px;
 }
 
 nav a {
@@ -23,15 +62,24 @@ nav a {
 .about-section {
   background-color: #f8f8f8;
 }
-
 .about-section img {
   max-width: 150px;
 }
 
 
 /* topics cards */
+
+.card-deck {
+  display: flex;
+  margin: 0px 15px 0px 15px;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .topics-section .card {
   border: 1px solid black;
+  flex-grow: 1;
 }
 
 .topics-section img {
