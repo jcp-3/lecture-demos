@@ -10,17 +10,8 @@ h2 {
   color: rebeccapurple;
 }
 
-<<<<<<< HEAD
 p {
   font-size: 1.2em;
-=======
-header h1 {
-  font-size: 2.5em;
-  padding: 1em;
-  border-color:rgb(131, 123, 80);
-  border-style: groove;
-  text-align: center;
->>>>>>> starter
 }
 
 /* nav bar */
@@ -95,20 +86,10 @@ header p {
 
 
 /* topics cards */
-<<<<<<< HEAD
 .card-deck {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-=======
-
-.card-deck {
-  display: flex;
-  margin: 0px 15px 0px 15px;
-  flex-wrap:wrap;
-  justify-content: space-between;
-  align-items: center;
->>>>>>> starter
 }
 
 .topics-section .card {
